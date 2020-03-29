@@ -3,6 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>helgeu</Authors>
+    <Company>helgeu</Company>
+    <Product>helgeu</Product>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/helgeu/GraphViz-C-Sharp-Wrapper</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/helgeu/GraphViz-C-Sharp-Wrapper</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
