@@ -1,14 +1,16 @@
 # nuget
-`PM> Install-Package GraphViz.NET`
+`PM> Install-Package GraphVizWrapperCore`
 
 # Project Description
-This is a C# wrapper for the GraphViz graph generator.
+This is a C# wrapper for the GraphViz graph generator for dotnet core.
 
 Pass in a dot string and an output type and voila, your graph is generated.
 
 The output file is returned to you as a byte array to do as you please.
 
 This library acts as a wrapper for the GraphViz command line tools. The graphviz command line tools may be downloaded from graphviz.org/Download.php, and need to be placed in the 'graphviz' folder relative to the GraphVizWrapper dll upon deployment.
+
+Originally from https://github.com/JamieDixon/GraphViz-C-Sharp-Wrapper
 
 ## Usage
 
@@ -44,7 +46,7 @@ each of the following files points to the 'bin' folder of your installation:
 
 ### Clone the repository
 ```PowerShell
-git clone https://github.com/JamieDixon/GraphViz-C-Sharp-Wrapper.git
+git clone https://github.com/helgeu/GraphViz-C-Sharp-Wrapper
 ```
 
 ### Add MSBuild to PATH

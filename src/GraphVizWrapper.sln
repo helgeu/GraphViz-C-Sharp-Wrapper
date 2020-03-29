@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphVizWrapper", "GraphViz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphVizWrapper.Tests", "GraphVizWrapper.Tests\GraphVizWrapper.Tests.csproj", "{B561F813-067D-4602-8786-CD680154879A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphVizWrapperCore", "GraphVizWrapperCore\GraphVizWrapperCore.csproj", "{A3B17DCB-117D-46BA-B845-D5E0E5A09251}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphVizWrapperCore.Tests", "GraphVizWrapperCore.Tests\GraphVizWrapperCore.Tests.csproj", "{804B9971-70CE-438A-AD25-643E3B01363D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,14 @@ Global
 		{B561F813-067D-4602-8786-CD680154879A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B561F813-067D-4602-8786-CD680154879A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B561F813-067D-4602-8786-CD680154879A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3B17DCB-117D-46BA-B845-D5E0E5A09251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B17DCB-117D-46BA-B845-D5E0E5A09251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B17DCB-117D-46BA-B845-D5E0E5A09251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B17DCB-117D-46BA-B845-D5E0E5A09251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{804B9971-70CE-438A-AD25-643E3B01363D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{804B9971-70CE-438A-AD25-643E3B01363D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{804B9971-70CE-438A-AD25-643E3B01363D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{804B9971-70CE-438A-AD25-643E3B01363D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
